@@ -7,7 +7,7 @@
 > A fresh (deno) app
 
 ## 🏠 [Homepage](https://github.com/lucacasonato/fresh)
-### ✨ [Demo](fresh-deno-app.deno.dev/)
+### ✨ [Demo](https://fresh-deno-app.deno.dev/)
 
 [![IT Man - Tech #21 - A first look at Fresh - The next-gen web framework on the edge [Vietnamese]](https://i.ytimg.com/vi/d7CBpxbqtgA/mqdefault.jpg)](https://www.youtube.com/watch?v=d7CBpxbqtgA)
 
