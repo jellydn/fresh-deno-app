@@ -9,6 +9,8 @@
 ## 🏠 [Homepage](https://github.com/lucacasonato/fresh)
 ### ✨ [Demo](fresh-deno-app.deno.dev/)
 
+[![IT Man - Tech #21 - A first look at Fresh - The next-gen web framework on the edge [Vietnamese]](https://i.ytimg.com/vi/d7CBpxbqtgA/mqdefault.jpg)](https://www.youtube.com/watch?v=d7CBpxbqtgA)
+
 ## Prerequisites
 
 [Deno version 1.22.3 or higher installed.](https://deno.land/#installation) - A modern runtime for JavaScript and TypeScript
