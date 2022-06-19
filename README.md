@@ -6,6 +6,7 @@
 
 > A fresh (deno) app
 
+## 🏠 [Homepage](https://github.com/lucacasonato/fresh)
 ### ✨ [Demo](fresh-deno-app.deno.dev/)
 
 ## Prerequisites
