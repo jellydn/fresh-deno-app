@@ -1,5 +1,6 @@
 /** @jsx h */
 import { h } from "preact";
+
 import CountDown from "../islands/CountDown.tsx";
 
 export default function Page() {

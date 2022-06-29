@@ -1,5 +1,6 @@
 /** @jsx h */
 import { h } from "preact";
+import { tw } from "@twind";
 import { PageProps } from "$fresh/server.ts";
 import { Handlers } from "$fresh/server.ts";
 
@@ -22,7 +23,7 @@ export const handler: Handlers<Data> = {
 export default function Page({ data }: PageProps<Data>) {
   const { results, query } = data;
   return (
-    <div>
+    <div class={tw`p-4 mx-auto max-w-screen-md`}>
       <form>
         <input type="text" name="q" value={query} />
         <button type="submit">Search</button>
