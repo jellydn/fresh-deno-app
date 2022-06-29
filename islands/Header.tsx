@@ -10,6 +10,7 @@ export default function Header() {
       >
         <a
           class={tw`flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0`}
+          href="/"
         >
           <img
             src="/logo.svg"
