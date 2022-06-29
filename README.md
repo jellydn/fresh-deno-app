@@ -15,10 +15,11 @@
 
 [Deno version 1.22.3 or higher installed.](https://deno.land/#installation) - A modern runtime for JavaScript and TypeScript
 
-## Install
+## Getting started
+You can scaffold a new project by running the Fresh init script. To scaffold a project in the myproject folder, run the following:
 
 ```sh
-deno run -A --no-check https://raw.githubusercontent.com/lucacasonato/fresh/main/init.ts my-app
+deno run -A -r https://fresh.deno.dev my-project
 ```
 
 ## Usage
