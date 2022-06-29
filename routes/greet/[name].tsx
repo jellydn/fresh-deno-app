@@ -1,7 +1,9 @@
 /** @jsx h */
 import { h } from "preact";
-import { PageProps, Handlers } from "$fresh/server.ts";
+import { tw } from "@twind";
+import { Handlers, PageProps } from "$fresh/server.ts";
 
+import Header from "../../islands/Header.tsx";
 interface Owner {
   name: string;
 }
@@ -17,8 +19,9 @@ export const handler: Handlers<Owner | null> = {
 
 export default function Greet(props: PageProps<Owner | null>) {
   return (
-    <div>
+    <main class={tw`p-4 mx-auto max-w-screen-md`}>
+      <Header />
       Hello {props.params.name} from {props.data?.name}
-    </div>
+    </main>
   );
 }

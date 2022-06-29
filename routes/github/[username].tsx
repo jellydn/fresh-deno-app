@@ -4,6 +4,8 @@ import { tw } from "@twind";
 import { PageProps } from "$fresh/server.ts";
 import { Handlers } from "$fresh/server.ts";
 
+import Header from "../../islands/Header.tsx";
+
 interface User {
   login: string;
   name: string;
@@ -29,6 +31,7 @@ export default function Page({ data }: PageProps<User | null>) {
 
   return (
     <div class={tw`p-4 mx-auto max-w-screen-md`}>
+      <Header />
       <img src={data.avatar_url} width={64} height={64} />
       <h1>{data.name}</h1>
       <p>{data.login}</p>
