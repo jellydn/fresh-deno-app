@@ -1,5 +1,5 @@
 /** @jsx h */
-import { h } from "$fresh/runtime.ts";
+import { h } from "preact";
 import CountDown from "../islands/CountDown.tsx";
 
 export default function Page() {

@@ -1,5 +1,6 @@
 /** @jsx h */
-import { h, PageProps } from "$fresh/runtime.ts";
+import { h } from "preact";
+import { PageProps } from "$fresh/server.ts";
 import { Handlers } from "$fresh/server.ts";
 
 const NAMES = ["Alice", "Bob", "Charlie", "Dave", "Eve", "Frank"];

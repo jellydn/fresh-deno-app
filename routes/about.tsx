@@ -1,5 +1,5 @@
 /** @jsx h */
-import { h } from "$fresh/runtime.ts";
+import { h } from "preact";
 import { Handlers } from "$fresh/server.ts";
 
 export const handler: Handlers = {
