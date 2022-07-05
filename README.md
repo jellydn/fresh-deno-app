@@ -9,7 +9,7 @@
 ## 🏠 [Homepage](https://github.com/lucacasonato/fresh)
 ### ✨ [Demo](https://fresh-deno.productsway.com/)
 
-[![IT Man - Talk #21 - At The Edge! [Vietnamese]](https://i.ytimg.com/vi/hFcdh4M7XG4/mqdefault.jpg)](https://www.youtube.com/watch?v=hFcdh4M7XG4)
+[![IT Man - Tech #21 - A first look at Fresh - The next-gen web framework on the edge [Vietnamese]](https://i.ytimg.com/vi/d7CBpxbqtgA/mqdefault.jpg)](https://www.youtube.com/watch?v=d7CBpxbqtgA)
 
 ## Prerequisites
 
