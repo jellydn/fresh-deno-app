@@ -1,6 +1,3 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 import Header from "../../islands/Header.tsx";
@@ -19,7 +16,7 @@ export const handler: Handlers<Owner | null> = {
 
 export default function Greet(props: PageProps<Owner | null>) {
   return (
-    <main class={tw`p-4 mx-auto max-w-screen-md`}>
+    <main class="p-4 mx-auto max-w-screen-md">
       <Header />
       Hello {props.params.name} from {props.data?.name}
     </main>

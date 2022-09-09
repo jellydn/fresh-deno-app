@@ -1,5 +1,3 @@
-/** @jsx h */
-import { h } from "preact";
 import { useState, useEffect } from "preact/hooks";
 
 const timeFmt = new Intl.RelativeTimeFormat("en-US");

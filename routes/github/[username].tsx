@@ -1,6 +1,3 @@
-/** @jsx h */
-import { h } from "preact";
-import { tw } from "@twind";
 import { PageProps } from "$fresh/server.ts";
 import { Handlers } from "$fresh/server.ts";
 
@@ -30,7 +27,7 @@ export default function Page({ data }: PageProps<User | null>) {
   }
 
   return (
-    <div class={tw`p-4 mx-auto max-w-screen-md`}>
+    <div class="p-4 mx-auto max-w-screen-md">
       <Header />
       <img src={data.avatar_url} width={64} height={64} />
       <h1>{data.name}</h1>

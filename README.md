@@ -9,7 +9,7 @@
 ## 🏠 [Homepage](https://github.com/lucacasonato/fresh)
 ### ✨ [Demo](https://fresh-deno.productsway.com/)
 
-[![IT Man - Tech #21 - A first look at Fresh - The next-gen web framework on the edge [Vietnamese]](https://i.ytimg.com/vi/d7CBpxbqtgA/mqdefault.jpg)](https://www.youtube.com/watch?v=d7CBpxbqtgA)
+[![IT Man - Tech #21 - A first look at Fresh - The next-gen web framework on the edge [Vietnamese]](https://i.ytimg.com/vi/d7CBpxbqtgA/hqdefault.jpg)](https://www.youtube.com/watch?v=d7CBpxbqtgA)
 
 ## Prerequisites
 
@@ -27,6 +27,11 @@ deno run -A -r https://fresh.deno.dev my-project
 ```sh
 deno task start
 ```
+
+## Useful links
+
+- [Fresh 1.1 - automatic JSX, plugins, DevTools, and more](https://deno.com/blog/fresh-1.1)
+- [Fresh documentation](https://fresh.deno.dev/docs/introduction)
 
 ## Author
 

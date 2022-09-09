@@ -1,29 +1,25 @@
-/** @jsx h */
-import { h } from "preact";
-import { useState } from "preact/hooks";
+import { useSignal } from "@preact/signals";
 import { IS_BROWSER } from "$fresh/runtime.ts";
-import { tw } from "@twind";
 
 interface CounterProps {
   start: number;
 }
 
 export default function Counter(props: CounterProps) {
-  const [count, setCount] = useState(props.start);
-  const btn = tw`px-2 py-1 border(gray-100 1) hover:bg-gray-200`;
+  const count = useSignal(props.start);
   return (
-    <div class={tw`flex gap-2 w-full`}>
-      <p class={tw`flex-grow-1 font-bold text-xl`}>{count}</p>
+    <div class="flex gap-2 w-full">
+      <p class="flex-grow-1 font-bold text-xl">{count}</p>
       <button
-        class={btn}
-        onClick={() => setCount(count - 1)}
+        class={`px-2 py-1 border(gray-100 1) hover:bg-gray-200`}
+        onClick={() => count.value--}
         disabled={!IS_BROWSER}
       >
         -1
       </button>
       <button
-        class={btn}
-        onClick={() => setCount(count + 1)}
+        class={`px-2 py-1 border(gray-100 1) hover:bg-gray-200`}
+        onClick={() => count.value++}
         disabled={!IS_BROWSER}
       >
         +1
