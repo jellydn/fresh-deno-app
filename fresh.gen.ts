@@ -2,39 +2,40 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/_app.tsx";
-import * as $1 from "./routes/_middleware.ts";
-import * as $2 from "./routes/about.tsx";
-import * as $3 from "./routes/api/joke.ts";
-import * as $4 from "./routes/api/uuid.ts";
-import * as $5 from "./routes/countdown.tsx";
-import * as $6 from "./routes/github/[username].tsx";
-import * as $7 from "./routes/greet/[name].tsx";
-import * as $8 from "./routes/index.tsx";
-import * as $9 from "./routes/search.tsx";
-import * as $$0 from "./islands/CountDown.tsx";
-import * as $$1 from "./islands/Counter.tsx";
-import * as $$2 from "./islands/Header.tsx";
+import * as $_app from "./routes/_app.tsx";
+import * as $_middleware from "./routes/_middleware.ts";
+import * as $about from "./routes/about.tsx";
+import * as $api_joke from "./routes/api/joke.ts";
+import * as $api_uuid from "./routes/api/uuid.ts";
+import * as $countdown from "./routes/countdown.tsx";
+import * as $github_username_ from "./routes/github/[username].tsx";
+import * as $greet_name_ from "./routes/greet/[name].tsx";
+import * as $index from "./routes/index.tsx";
+import * as $search from "./routes/search.tsx";
+import * as $CountDown from "./islands/CountDown.tsx";
+import * as $Counter from "./islands/Counter.tsx";
+import * as $Header from "./islands/Header.tsx";
+import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
-    "./routes/_app.tsx": $0,
-    "./routes/_middleware.ts": $1,
-    "./routes/about.tsx": $2,
-    "./routes/api/joke.ts": $3,
-    "./routes/api/uuid.ts": $4,
-    "./routes/countdown.tsx": $5,
-    "./routes/github/[username].tsx": $6,
-    "./routes/greet/[name].tsx": $7,
-    "./routes/index.tsx": $8,
-    "./routes/search.tsx": $9,
+    "./routes/_app.tsx": $_app,
+    "./routes/_middleware.ts": $_middleware,
+    "./routes/about.tsx": $about,
+    "./routes/api/joke.ts": $api_joke,
+    "./routes/api/uuid.ts": $api_uuid,
+    "./routes/countdown.tsx": $countdown,
+    "./routes/github/[username].tsx": $github_username_,
+    "./routes/greet/[name].tsx": $greet_name_,
+    "./routes/index.tsx": $index,
+    "./routes/search.tsx": $search,
   },
   islands: {
-    "./islands/CountDown.tsx": $$0,
-    "./islands/Counter.tsx": $$1,
-    "./islands/Header.tsx": $$2,
+    "./islands/CountDown.tsx": $CountDown,
+    "./islands/Counter.tsx": $Counter,
+    "./islands/Header.tsx": $Header,
   },
   baseUrl: import.meta.url,
-};
+} satisfies Manifest;
 
 export default manifest;
