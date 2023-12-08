@@ -1,11 +1,9 @@
 export default function Header() {
   return (
     <header class="text-gray-600 body-font">
-      <div
-        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
-      >
+      <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
         <a
-          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+          class="flex items-center mb-4 font-medium text-gray-900 md:mb-0 title-font"
           href="/"
         >
           <img
@@ -15,9 +13,7 @@ export default function Header() {
           />
           <span class="ml-3 text-xl">Fresh Deno App</span>
         </a>
-        <nav
-          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
-        >
+        <nav class="flex flex-wrap justify-center items-center text-base md:mr-auto md:ml-auto">
           <a href="/about" class="mr-5 hover:text-gray-900">
             About
           </a>
@@ -34,23 +30,21 @@ export default function Header() {
             Github
           </a>
         </nav>
-        <div
-          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
-        >
+        <div class="inline-flex items-center py-1 px-3 mt-4 text-base bg-gray-100 rounded border-0 md:mt-0 hover:bg-gray-200 focus:outline-none">
           <a
             href="/api/uuid"
             target="_blank"
+            rel="noopener noreferrer"
             class="mr-5 hover:text-gray-900"
           >
             Random API
           </a>
         </div>
-        <div
-          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
-        >
+        <div class="inline-flex items-center py-1 px-3 mt-4 text-base bg-gray-100 rounded border-0 md:mt-0 hover:bg-gray-200 focus:outline-none">
           <a
             href="/api/joke"
             target="_blank"
+            rel="noopener noreferrer"
             class="mr-5 hover:text-gray-900"
           >
             Joke API
